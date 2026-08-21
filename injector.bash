@@ -35,7 +35,7 @@ if [ -f "chrome.AppImage" ]; then
   echo "Pulando o Download do Chrome AppImage. Pois ele já existe."
 else
   echo "Fazendo download da Build 151.0.7922.169-1 do Chrome AppImage..."
-  curl -L -o chrome.AppImage https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-151.0.7922.169-1-x86_64.AppImage
+  curl -L -o chrome.AppImage https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-151.0.7922.173-1-x86_64.AppImage
 fi
 
 echo " "
