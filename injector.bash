@@ -60,7 +60,8 @@ echo "INICIALIZANDO O CHROME INJETADO..."
 
 echo " "
 echo "Chrome foi Fechado!"
+sleep 1
 echo "Fazendo a limpeza do Local State..."
-rm $env/.config/google-chrome/'Local State'
+rm -r $env/.config/google-chrome
 echo " "
 echo "Bom trabalhar pra você. Qualquer coisa é só me rodar denovo."
