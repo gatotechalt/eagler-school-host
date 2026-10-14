@@ -5,5 +5,5 @@ Just a repo for hosting a open-source version of Minecraft
 Simply copy and run this script on any linux school computer:
 
 ```
-rm -r eagler-school-host && git clone https://github.com/gatotechalt/eagler-school-host/ && cd eagler-school-host && chmod +x injector.bash && ./injector.bash
+git clone https://github.com/gatotechalt/eagler-school-host/ && cd eagler-school-host && chmod +x injector.bash && ./injector.bash
 ```
